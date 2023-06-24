@@ -9,13 +9,31 @@
     justify-content: space-between;
    
 }
-
+.navbar span{
+    position: fixed;
+    right: 200px;
+}
 .logo{
 position: fixed;
 left: 20px;
 width: 80px;
 }
-
+.navsignin{
+    position: fixed;
+    right: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+    border: 0 solid;
+}
+.navsignin:hover{
+    background-color: brown ;
+}
 .avatar {
     position: fixed;
     right: 20px;

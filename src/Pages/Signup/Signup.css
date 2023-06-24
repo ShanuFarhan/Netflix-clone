@@ -1,0 +1,51 @@
+
+.signup .logo{
+    width: 180px;
+    padding-top: 20px;
+    padding-left: 30px;
+   position: fixed;
+}
+
+.signupform form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4');
+    background-size: cover; 
+}
+.signupform h1{
+    padding-top: 0px;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.signupform input{
+    height: 50px;
+    width: 24%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.signupbtn{
+    position: fixed;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 24%;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+    border: 0 solid;
+    margin-top: 390px;
+}
+.signupform p{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 800;
+}

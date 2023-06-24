@@ -1,22 +1,19 @@
 import React from 'react'
-import Navbar from './Components/Navbar/navbar'
+import Home from './Pages/Home'
+import { Route, Routes } from 'react-router-dom'
 import "./App.css"
-import {originals,action, comedy, horror, romance, documentary} from './urls'
-import Banner from './Components/Banner/Banner'
-import RawPost from './Components/RawPost/Rawpost'
+import SignIn from './Pages/Signin/Signin'
+import Signup from './Pages/Signup/Signup'
 function App() {
   return (
-    <div className='App'>
-          <Navbar/>
-          <Banner/>
-          <RawPost url={originals} title='Netflix Originals'/>
-          <RawPost url={action} title='Action' isSmall/>
-          <RawPost url={comedy} title='Comedy' isSmall/>
-          <RawPost url={horror} title='Horror' isSmall/>
-          <RawPost url={romance} title='Romance' isSmall/>
-          <RawPost url={documentary} title='Documentaries' isSmall/>
-
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/signin' element={<SignIn/>}/>
+      <Route path='/signup' element={<Signup/>}/>
+    </Routes>
+    
+    </>
   )
 }
 
